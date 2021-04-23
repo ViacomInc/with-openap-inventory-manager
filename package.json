@@ -2,6 +2,8 @@
   "name": "with-openap-inventory-manager",
   "description": "OpenAP Inventory Manager Next.js template",
   "version": "1.0.0",
+  "author": "ViacomCBS",
+  "license": "Apache 2.0",
   "scripts": {
     "dev": "next dev -p 8080",
     "dev:noauth": "NO_AUTH=true next dev -p 8080",
@@ -37,6 +39,5 @@
     "next-compose-plugins": "2.2.1",
     "stats-webpack-plugin": "0.7.0",
     "typescript": "^4.0"
-  },
-  "license": "MIT"
+  }
 }

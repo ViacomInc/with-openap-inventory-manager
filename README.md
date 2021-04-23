@@ -12,4 +12,11 @@ npx create-next-app --example ssh://git@stash.mtvi.com/vaa/with-openap-inventory
 yarn create next-app --example ssh://git@stash.mtvi.com/vaa/with-openap-inventory-manager.git with-typescript-app
 ```
 
-## Notes
+## Setup
+
+You should have PostgreSQL installed and running.
+
+1. Copy `.env` as `.env.local` and fill in all the variables
+2. Run database migrations for the manager `npm run migrate:manager`
+3. Start the app `npm run dev:noauth`
+4. Go to `http://localhost:8080`
