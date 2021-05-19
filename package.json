@@ -3,7 +3,7 @@
   "description": "OpenAP Inventory Manager Next.js template",
   "version": "1.0.0",
   "author": "ViacomCBS",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "next dev -p 8080",
     "dev:noauth": "NO_AUTH=true next dev -p 8080",
@@ -13,7 +13,14 @@
     "migrate:manager": "migrate-manager",
     "migrate": "migrate -t migrations",
     "compile": "tsc --project tsconfig.json --noEmit",
-    "compile:watch": "npm run compile -- --watch"
+    "compile:watch": "npm run compile -- --watch",
+    "license-check:prod": "license-checker --production",
+    "license-check:prod:summary": "license-checker --production --summary",
+    "license-check:prod:unknown": "license-checker --production --onlyunknown --summary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViacomInc/with-openap-inventory-manager.git"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
@@ -36,6 +43,7 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/react-redux": "^7.1.16",
+    "license-checker": "25.0.1",
     "next-compose-plugins": "2.2.1",
     "stats-webpack-plugin": "0.7.0",
     "typescript": "^4.0"
