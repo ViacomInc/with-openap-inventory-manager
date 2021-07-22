@@ -5,7 +5,7 @@ import {
   Head as OAPHead,
   App as OAPApp,
   IconsLibrary,
-} from "openap-inventory-manager-react";
+} from "@viacomcbs/openap-inventory-manager-react";
 import store from "../store";
 
 import { getAppRuntimeConfig, AppConfigProps } from "../config";

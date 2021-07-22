@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { openAPReducer } from "openap-inventory-manager-react";
+import { openAPReducer } from "@viacomcbs/openap-inventory-manager-react";
 
 const store = configureStore({ reducer: { ...openAPReducer } });
 export default store;

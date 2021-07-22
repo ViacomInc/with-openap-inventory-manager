@@ -1,1 +1,1 @@
-export { selectUser } from "openap-inventory-manager-react";
+export { selectUser } from "@viacomcbs/openap-inventory-manager-react";

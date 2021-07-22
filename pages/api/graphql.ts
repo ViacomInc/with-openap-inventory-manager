@@ -6,7 +6,7 @@ import {
   withAuth,
   WithAuth,
   Handler,
-} from "openap-inventory-manager-server";
+} from "@viacomcbs/openap-inventory-manager-server";
 
 import { getAppRuntimeConfig } from "../../config";
 

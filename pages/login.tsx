@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { useRouter } from "next/router";
-import { Page, Button } from "openap-inventory-manager-react";
+import { Page, Button } from "@viacomcbs/openap-inventory-manager-react";
 
 export default function Login(): JSX.Element {
   const router = useRouter();
