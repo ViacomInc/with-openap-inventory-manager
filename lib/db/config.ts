@@ -1,6 +1,6 @@
 import { createTypeParserPreset } from "slonik";
 
-export default {
+const config = {
   captureStackTrace: true,
   connectionTimeout: 30000,
   idleTimeout: 30000,
@@ -21,3 +21,5 @@ export default {
     },
   ],
 };
+
+export default config;

@@ -1,9 +1,11 @@
+import React from "react";
 import { Provider } from "react-redux";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import {
   Head as OAPHead,
   App as OAPApp,
+  TopBar,
   IconsLibrary,
 } from "@viacomcbs/openap-inventory-manager-react";
 import store from "../store";
@@ -35,6 +37,7 @@ function AppAuth({ Component, pageProps, config }: Props): JSX.Element {
 
   return (
     <OAPApp className={Styles.App}>
+      <TopBar />
       <Component {...pageProps} />
     </OAPApp>
   );
