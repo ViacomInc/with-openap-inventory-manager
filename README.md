@@ -7,7 +7,7 @@ This is a really simple project that shows the usage of Next.js with OpenAP Inve
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) to bootstrap the example:
 
 ```bash
-npx create-next-app --example https://github.com/ViacomInc/with-openap-inventory-manager.git openap-manager
+npx create-next-app --example https://github.com/ViacomInc/with-openap-inventory-manager openap-manager
 ```
 
 ## Setup
