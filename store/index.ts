@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { openAPReducer } from "@viacomcbs/openap-inventory-manager-react";
+import { managerReducer } from "@viacomcbs/openap-inventory-manager-react";
 
-const store = configureStore({ reducer: { ...openAPReducer } });
+const store = configureStore({ reducer: { ...managerReducer } });
 export default store;
 
 export type State = ReturnType<typeof store.getState>;
