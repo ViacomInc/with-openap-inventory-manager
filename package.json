@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
-    "@viacomcbs/broadcast-calendar": "^1.2.0",
-    "@viacomcbs/openap-inventory-manager-react": "0.13.0",
-    "@viacomcbs/openap-inventory-manager-server": "0.13.0",
+    "@viacomcbs/broadcast-calendar": "^1.5.0",
+    "@viacomcbs/openap-inventory-manager-react": "^1.0.0",
+    "@viacomcbs/openap-inventory-manager-server": "^1.0.0",
     "apollo-server-micro": "^3.1.2",
     "dotenv-flow": "3.2.0",
     "graphql": "^15.5.0",
@@ -36,7 +36,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.3",
-    "slonik": "^24.0.0"
+    "slonik": "^27.0.0"
   },
   "devDependencies": {
     "@types/luxon": "^2.0.0",
